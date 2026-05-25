@@ -134,10 +134,10 @@ export default function BreakfastPage() {
                           size="icon"
                           onClick={() => toggleFavorite(index)}
                           className={`rounded-full ${
-                            breakfastPlan[index]?.favorite ? 'text-red-500' : ''
+                            breakfastPlan[index]?.isFavorite ? 'text-red-500' : ''
                           }`}
                         >
-                          <Heart className={`h-4 w-4 ${breakfastPlan[index]?.favorite ? 'fill-current' : ''}`} />
+                          <Heart className={`h-4 w-4 ${breakfastPlan[index]?.isFavorite ? 'fill-current' : ''}`} />
                         </Button>
                         {breakfastPlan[index]?.completed ? (
                           <Button
