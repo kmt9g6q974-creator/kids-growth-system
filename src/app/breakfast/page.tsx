@@ -65,7 +65,7 @@ export default function BreakfastPage() {
                     <ChevronLeft className="h-4 w-4" />
                   </Button>
                   <div className="text-center min-w-[120px]">
-                    <div className="text-sm text-gray-600">{getWeekDayName(selectedDate)}</div>
+                    <div className="text-sm text-gray-600">{getWeekDayName(selectedDate.getDay())}</div>
                     <div className="font-semibold text-gray-800">{formatDate(selectedDate)}</div>
                   </div>
                   <Button
