@@ -1,3 +1,4 @@
+"use client";
 import { useMemo } from 'react'
 import { useUserStore } from '@/store/useUserStore'
 import { calculateLevelProgress, getLevelTitle } from '@/lib/utils'

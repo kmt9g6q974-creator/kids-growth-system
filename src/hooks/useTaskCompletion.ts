@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from 'react'
 import { useTaskStore } from '@/store/useTaskStore'
 import { useUserStore } from '@/store/useUserStore'
